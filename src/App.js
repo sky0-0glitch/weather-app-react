@@ -8,6 +8,7 @@ function App() {
         <a
           href="https://github.com/sky0-0glitch/weather-app-react"
           target="_blank"
+          rel="noreferrer"
         >
           {" "}
           gethub
