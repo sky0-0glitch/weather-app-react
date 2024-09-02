@@ -18,14 +18,14 @@
   margin-top: 5px;
   display: inline-block;
 }
-.weather .temperature {
+.temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
 }
-.weather .unit {
+.unit {
   color: rgb(32, 31, 31);
   font-size: 16px;
   font-weight: 400;
