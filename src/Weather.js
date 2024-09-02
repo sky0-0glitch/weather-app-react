@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Weather.css";
+import "./Weather0.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 
@@ -10,6 +10,7 @@ export default function Weather(props) {
     setWeather({
       date: new Date(response.data.dt * 1000),
       ready: true,
+      icon: response.data.weather[0].icon,
       city: response.data.name,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
@@ -30,7 +31,7 @@ export default function Weather(props) {
   }
   if (weather.ready) {
     return (
-      <div className="weather">
+      <div className="weather0">
         <form onSubmit={hundleSubmit}>
           <div className="row">
             <input

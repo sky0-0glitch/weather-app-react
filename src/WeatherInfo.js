@@ -1,28 +1,25 @@
 import React from "react";
+import "./Weather.css";
 import FormatedDate from "./formatedDate";
+import RenderIcon from "./RenderIcon";
 export default function WeatherInfo(props) {
   return (
-    <div>
+    <div className="weather">
       <h1> {props.data.city} </h1>
       <ul>
         <li>
-          {" "}
-          <FormatedDate date={props.data.date} />{" "}
+          <FormatedDate date={props.data.date} />
         </li>
         <li className="text-capitalize"> {props.data.description} </li>
       </ul>
       <div className="row mt-3">
         <div className="col-6 ">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="Mostly Cloudy"
-            className=""
-          />
+          <RenderIcon Code={props.data.icon} />
+
           <span className="temp">
             <span className="temperature">
-              {" "}
-              {Math.round(props.data.temperature)}{" "}
-            </span>{" "}
+              {Math.round(props.data.temperature)}
+            </span>
             <span className="unit">℃</span>
           </span>
         </div>
