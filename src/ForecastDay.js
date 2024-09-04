@@ -7,16 +7,24 @@ export default function ForecastDay(props) {
     let days = ["Sun", "Mon", "Tue", "Wed", "thu", "Fri", "Sat"];
     return days[day];
   }
-  console.log(props);
+  function mintemp() {
+    let min = Math.round(props.data.temp.min);
+    return `${min}°`;
+  }
+  function maxtemp() {
+    let max = Math.round(props.data.temp.max);
+    return `${max}°`;
+  }
+
   return (
     <div>
-      <div>{day()}</div>
+      <div> {day()} </div>
       <div>
         <RenderIcon Code={props.data.weather[0].icon} size={36} />
       </div>
       <div>
-        <span className="maxTemp">19°</span>
-        <span className="minTemp">10°</span>
+        <span className="maxTemp">{maxtemp()}</span>
+        <span className="minTemp">{mintemp()}</span>
       </div>
     </div>
   );
