@@ -15,6 +15,14 @@ function App() {
           >
             {" "}
             gethub
+          </a>{" "}
+          hosted on{" "}
+          <a
+            href="https://spiffy-bavarois-fa6c62.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>

@@ -20,13 +20,13 @@
 }
 .temperature {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: rgb(251, 249, 249);
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
 }
 .unit {
-  color: rgb(32, 31, 31);
+  color: white;
   font-size: 16px;
   font-weight: 400;
   position: relative;
