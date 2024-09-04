@@ -1,10 +1,16 @@
 import "./App.css";
 import Weather from "./Weather";
-import Videobg from "./Background.mp4";
+import Video1 from "./Background.mp4";
+import Video2 from "./background.ogv";
+import Video3 from "./background.webm";
 function App() {
   return (
     <div className="App">
-      <video src={Videobg} autoPlay loop muted playsInline />
+      <video autoPlay loop muted playsInline>
+        <source src={Video1} />
+        <source src={Video2} />
+        <source src={Video3} />
+      </video>
       <div className="Application">
         <div className="container ">
           <Weather defaultCity="New york" />
