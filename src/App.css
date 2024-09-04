@@ -14,6 +14,7 @@
   align-items: center;
 }
 video {
+  display: block;
   object-fit: fill;
   position: absolute;
   height: 100%;
