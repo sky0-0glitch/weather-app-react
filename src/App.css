@@ -29,3 +29,8 @@ video {
 footer a {
   text-decoration: none;
 }
+@media only screen and (max-width: 768px) {
+  .Application {
+    max-width: 400px;
+  }
+}

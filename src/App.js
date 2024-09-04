@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="App">
       <video autoPlay loop muted playsInline poster={poster}>
-        <source src={Video1} />
-        <source src={Video2} />
-        <source src={Video3} />
-        <source src={Video4} />
+        <source src={Video1} type="video/mp4" />
+        <source src={Video2} type="video/ogv" />
+        <source src={Video3} type="video/h264" />
+        <source src={Video4} type="video/webm" />
       </video>
       <div className="Application">
         <div className="container ">
