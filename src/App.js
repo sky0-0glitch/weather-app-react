@@ -4,7 +4,7 @@ import Videobg from "./Background.mp4";
 function App() {
   return (
     <div className="App">
-      <video src={Videobg} autoPlay loop muted />
+      <video src={Videobg} autoPlay loop muted playsInline />
       <div className="Application">
         <div className="container ">
           <Weather defaultCity="New york" />
