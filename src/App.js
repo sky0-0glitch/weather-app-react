@@ -11,7 +11,7 @@ function App() {
           <footer>
             this page is coded by
             <a
-              href="www.linkedin.com/in/saharomer"
+              href="https://www.linkedin.com/in/saharomer/"
               target="_blank"
               rel="noreferrer"
             >
