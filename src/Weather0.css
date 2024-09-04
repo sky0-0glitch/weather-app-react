@@ -1,11 +1,10 @@
 .weather0 {
-  border: 1px solid #dadde1;
-
+  border: 1px solid #2d2828;
   padding: 26px;
   border-radius: 30px;
   color: #716f77;
   font-family: Arial, sans-serif;
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0.5);
 }
 form {
   margin: 5px 5px 5px 15px;
