@@ -9,7 +9,15 @@ function App() {
         <div className="container ">
           <Weather defaultCity="New york" />
           <footer>
-            this page is coded by sahar omer open sourced on{" "}
+            this page is coded by
+            <a
+              href="www.linkedin.com/in/saharomer"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sahar Omer
+            </a>{" "}
+            open sourced on{" "}
             <a
               href="https://github.com/sky0-0glitch/weather-app-react"
               target="_blank"
