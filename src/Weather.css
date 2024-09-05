@@ -37,3 +37,14 @@
   position: relative;
   top: -10px;
 }
+@media only screen and (max-width: 600px) {
+  .temperature {
+    font-size: 48;
+  }
+  .weather li {
+    font-size: 10;
+  }
+  .unit {
+    font-size: 8px;
+  }
+}

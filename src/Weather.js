@@ -42,6 +42,7 @@ export default function Weather(props) {
               className="col-9"
               autoFocus
               onChange={hundleChange}
+              required
             />
             <div className="col-3">
               <input
